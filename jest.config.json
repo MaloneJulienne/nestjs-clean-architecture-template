@@ -1,0 +1,16 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "ts"
+  ],
+  "rootDir": "./test/unit",
+  "testEnvironment": "node",
+  "testRegex": ".spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^@app/(.*)$": "<rootDir>/../../src/$1"
+  },
+  "verbose": true
+}
